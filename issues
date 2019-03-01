@@ -1,0 +1,8 @@
+1: ERROR: Config value opt is not defined in any .rc file
+    https://github.com/tensorflow/tensorflow/issues/23613
+    
+    Option 1: add 'import /home/username/tensorflow/tools/bazel.rc' to /home/username/.bazelrc
+    Option 2: instead of --config=opt, use -c opt
+    
+2:  ERROR: error loading package '': Encountered error while reading extension file 'swift/repositories.bzl': no such package '@build_bazel_rules_swift//swift': Traceback (most recent call last) 
+    
