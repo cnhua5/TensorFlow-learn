@@ -5,4 +5,8 @@
     Option 2: instead of --config=opt, use -c opt
     
 2:  ERROR: error loading package '': Encountered error while reading extension file 'swift/repositories.bzl': no such package '@build_bazel_rules_swift//swift': Traceback (most recent call last) 
+
+
+3:  ERROR: /home/cccc/.cache/bazel/_bazel_cccc/0f5e4c048cdeefb6c2128034c5e94c17/external/grpc/BUILD:502:1: undeclared inclusion(s) in rule '@grpc//:gpr_base':
     
+    bazel 0.15 version
